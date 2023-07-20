@@ -1,0 +1,41 @@
+.banner{
+    height: 50vh;
+    position: relative;
+    width: 100%;
+    background: url("https://news.airbnb.com/wp-content/uploads/sites/4/2019/06/PJM020719Q202_Luxe_WanakaNZ_LivingRoom_0264-LightOn_R1.jpg?w=950")center center  ;
+    
+}
+
+.banner_info{
+    background-color: black;
+    color: white;
+    padding-top: 10vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    width: 300px;
+}
+
+.banner_search{
+    display: flex;
+    flex-direction: column;
+}
+.banner_searchButton{
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+
+.banner_info >button{
+    background-color: rgb(208, 0, 255);
+    color: whitesmoke;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner_info > button:hover{
+    background-color: white;
+    color: #ff7779;
+}

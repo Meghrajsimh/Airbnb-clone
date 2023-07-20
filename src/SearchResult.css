@@ -1,0 +1,93 @@
+.search-result{
+    display: flex;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    margin-top: -10px;
+    border-bottom:1px solid lightgray;
+    cursor: pointer;
+    transition: transform 250ms ease-out;
+}
+
+.search-result:hover{
+    opacity: 0.8;
+    transform: scale(1.08);
+}
+
+.search-result >img{
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.change > p{
+  margin-top: -18px;   
+}
+.change >h3{
+    margin-top: -5px;
+}
+
+.search-result-infoTop{
+    margin-top: -18px;
+}
+
+.search-result-infoTop > p{
+    font-size: 13px;
+    font-weight: 600;
+    color: gray;
+    margin-top:15px ;
+
+}
+
+
+.serach-result-star{
+    margin-bottom: -10px;
+    margin-top: 15px;
+    color: red;
+}
+.search-result-price >p{
+    margin-top: -20px;
+}
+
+.search-result-price > h2{
+    margin-top: 400px;
+
+}
+.search-result-infoBottom{
+    margin-top: -30px;
+}
+#bottom{
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+.search-result-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.search-result-heart{
+    position: absolute;
+    top:20px;
+    right: 40px;
+}
+
+.search-result-infoTop{
+    width: 40vw;
+}
+
+.search-result-infoTop >h3{
+    font-weight: 300;
+}
+
+.search-result-star{
+    color: red;
+}
+
+.search-result-stars{
+    display: flex;
+    margin-bottom: -30px;
+}
